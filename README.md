@@ -31,7 +31,6 @@ git switch main                                 - switch to Receiving branch to 
 git merge TestServer                            - Branch to be merged with.
 
 
-
 -------------------------------------------------------------------------------
 
 git remote -v
