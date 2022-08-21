@@ -41,3 +41,5 @@ git push <name> <branchName>
 git push origin master
 
 git clone https://github.com/arunsathish/learning-git.git
+
+git pull origin main
