@@ -22,6 +22,8 @@ git branch TestServer
 
 git branch -m <NewBranchName>                   - Rename Branch, From inside the branch
 
+git branch -d <BranchName>                      - Delete Branch
+
 git switch <ToBranchName>                   
 git switch TestServer                           - Change current directory to desire branch
 
