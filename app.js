@@ -11,4 +11,20 @@ app.get("/signin", (req, res) => {
   res.send("Sign In");
 });
 
+app.get("/login", (req, res) => {
+  res.send("Login");
+});
+
+app.get("/homepage", (req, res) => {
+  res.send({ aboutus: "", image: "https//filename.jpeg" });
+});
+
+// Frontend
+Axios({
+  method: "GET",
+  url: "http://182.73.9/homepage",
+});
+
+// Some Command
+
 app.listen(4000, () => console.log("Running on port http://localhost:4000"));

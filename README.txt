@@ -44,3 +44,6 @@ git push origin master
 git clone https://github.com/arunsathish/learning-git.git
 
 git pull origin main
+
+git push -d <remote_name> <branchName>              - Delete Remote branch
+git push -d origin signin
